@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.item{
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    height: 50px;
+    width: 35px;
+    margin: 5px;
+    background-color: red;
+    border: 1px solid black;
+
+
+
+
+}
+.item1{
+ /* flex-grow: 2; */
+ /* flex-shrink: 2; */
+ align-self:flex-end;
+
+}
+.order-1{
+order: 1;
+}
+.order-2{
+    order:2;
+}
+.container{
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* when we two wrap row aur colum then we use align content */
+
+    
+}

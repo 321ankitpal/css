@@ -1,0 +1,37 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:green;
+    position: relative;
+
+
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    animation:animatedX 5s linear  infinite ,animatedY 1s ease-out infinite alternate ;
+}
+
+/* animation:demo 5s ease-in 1s infinoite normal both */
+@keyframes animatedX {
+    from {
+        left:0%;
+    }
+    to  {
+left:100%
+    }
+}
+@keyframes animatedY {
+    from {
+        bottom:0%;
+    }
+    to {
+bottom:50%
+    }
+}
